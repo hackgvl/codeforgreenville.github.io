@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://codeforgreenville.github.io
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://codeforgreenville.org
+title: The Code for Greenville Brigade Blog
+subtitle: 
+author: Code for Greenville Brigade
 simple_search: https://www.google.com/search
-description:
+description: We are a vollunteer group of developers, designers, organizers, and citizens working together to promote municipal Open Data by building Open Source Web Applications to meet community needs. 
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -63,8 +63,8 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
-github_repo_count: 0
+github_user:codeforgreenville
+github_repo_count: 1
 github_show_profile_link: true
 github_skip_forks: true
 
@@ -97,4 +97,4 @@ disqus_show_comment_count: false
 google_analytics_tracking_id:
 
 # Facebook Like
-facebook_like: false
+facebook_like: true
