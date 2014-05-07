@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[The Code for Greenville Brigade Blog]]></title>
-  <link href="http://codeforgreenville.org/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Redeployment | The Code for Greenville Brigade Blog]]></title>
+  <link href="http://codeforgreenville.org/blog/categories/redeployment/atom.xml" rel="self"/>
   <link href="http://codeforgreenville.org/"/>
   <updated>2014-05-07T17:48:29-04:00</updated>
   <id>http://codeforgreenville.org/</id>
@@ -41,7 +41,7 @@
 
 <ol>
 <li>Take a look at each application. Poke around and see what you think about it.</li>
-<li>Then ask yourself &ldquo;Would this app be helpful to me? and &#8220;Would I use this App?&rdquo;</li>
+<li>Then ask yourself &ldquo;Would this app be helpful to me? and "Would I use this App?&rdquo;</li>
 <li>Then go ask 2 other greenville citizens the same question. try to pick folks with a different background. see what kind of answers you get.</li>
 <li>Now think about Greenville &ndash; what should we consider if we were to deploy this app? Is there something about our town culture or our environment we need to account for or represent?</li>
 <li>If your feeling adventurous dive into the apps github site and dive into the code and see what you think.</li>
@@ -49,30 +49,6 @@
 
 
 <p>Finally Bring your thoughts back to the <a href="http://www.meetup.com/Code-for-Greenville-Brigade/messages/archive/">meetup discussion</a> or the next <a href="http://www.meetup.com/Code-for-Greenville-Brigade/">meetup</a> and help up decide what apps Code for Greenville will be deploying.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://codeforgreenville.org/blog/2014/05/07/hello-world/"/>
-    <updated>2014-05-07T15:09:53-04:00</updated>
-    <id>http://codeforgreenville.org/blog/2014/05/07/hello-world</id>
-    <content type="html"><![CDATA[<h1>It’s ALIVE!</h1>
-
-<p>Welcome to the Code for Greenville Brigade Blog! It is very much a work in progress but you should see regular changes over the next few weeks. For the curious the site repository is  available <a href="https://github.com/codeforgreenville/codeforgreenville.github.io">here</a>.
-GitHub, Ruby, Jekyll, Markup, and Bootstrap are all very new to me so its been a fun challenge to get this site stood up.</p>
-
-<h1>Join the Meetup Group</h1>
-
-<p>If you have not signed up for the <a href="http://www.meetup.com/Code-for-Greenville-Brigade/">meetup group</a> please hop over there and join up if you are so inclined. Our first meeting is on <strong>May 27th</strong> see the meetup for more details.</p>
-
-<h1>Get the word out</h1>
-
-<p>If your here you probably know a few folks in the Greenville Community who might be interested. Lend us a hand in spreading the word about the Code for Greenville Brigade and make sure those folks know about us!</p>
-
-<h1>Shout outs</h1>
-
-<p>A big thank you to <a href="http://github.com">GitHub</a> for hosting, <a href="http://octopress.org/">Octopress</a> for the framework, and <a href="https://github.com/kAworu/octostrap3">octostrap3</a> for the Bootstrap3.1 Octopress theme.</p>
 ]]></content>
   </entry>
   
