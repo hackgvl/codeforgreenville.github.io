@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Redeployment | The Code for Greenville Brigade Blog]]></title>
   <link href="http://codeforgreenville.org/blog/categories/redeployment/atom.xml" rel="self"/>
   <link href="http://codeforgreenville.org/"/>
-  <updated>2014-05-07T22:13:46-04:00</updated>
+  <updated>2014-05-07T22:39:06-04:00</updated>
   <id>http://codeforgreenville.org/</id>
   <author>
     <name><![CDATA[Code for Greenville Brigade]]></name>
@@ -18,7 +18,9 @@
     <link href="http://codeforgreenville.org/blog/2014/05/07/redeployment-spotlight-honolulu-answers/"/>
     <updated>2014-05-07T21:16:25-04:00</updated>
     <id>http://codeforgreenville.org/blog/2014/05/07/redeployment-spotlight-honolulu-answers</id>
-    <content type="html"><![CDATA[<h1>Application Details</h1>
+    <content type="html"><![CDATA[<p>{% img /images/posts/answers.png}</p>
+
+<h1>Application Details</h1>
 
 <p><a href="https://github.com/codeforamerica/honolulu_answers">GitHub Repository</a></p>
 
