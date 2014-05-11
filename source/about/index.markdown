@@ -10,7 +10,7 @@ author: Wryen Meek
 ---
 
 # Who we are
-We are a volunteer group of upstate citizens organizing the upstate technology community around open source civic technology development. Inspired by Code for America and brigades all over the US we seek to: educate the community about power of Open Data, build open source applications to use open data to solve community issues, and cultivate a culture of entrepreneurship around civic technology.
+We are a volunteer group of upstate citizens organizing the upstate technology community around open source civic technology development. Inspired by [Code for America](codeforamerica.org) and [brigades](http://codeforamerica.org/brigade/) all over the US we seek to: educate the community about power of [Open Data](https://okfn.org/opendata/), build [open source applications](http://codeforamerica.org/apps/) to use open data to solve community issues, and cultivate a culture of entrepreneurship around civic technology.
 
 # Why a 'Brigade'?
 It's an nod to Ben Frankin's volunteer fire brigade. They saw a problem with their City's ability to fight fires and created a solution. In the same vein we see issues with our City and believe that we can make a difference by actively building tools for our local community.
@@ -30,16 +30,16 @@ Opening up civic data permits application developers to use that information to 
 
 ## Here are some examples:
 
-Development FastPass combines parcel data, land use, zoning, building occupancy, and business incentives to help business owners research the best options to locate their businesses.
+[Development FastPass](http://lv-fastpass.herokuapp.com/) combines parcel data, land use, zoning, building occupancy, and business incentives to help business owners research the best options to locate their businesses.
 
-Honolulu Answers is a new approach to make it easier for people to navigate city information and services quickly. It's a citizen-focused website that is question-driven, with clean, easy-to-navigate design.
+[Honolulu Answers](http://answers.honolulu.gov/) is a new approach to make it easier for people to navigate city information and services quickly. It's a citizen-focused website that is question-driven, with clean, easy-to-navigate design.
 
-Ohana Web Search - helps connect citizens to government and nonprofit social services.
+[Ohana Web Search](http://ohanapi.org/) - helps connect citizens to government and nonprofit social services.
 
 # Who can join?
 Anyone who wants to contribute, sees a need, or wants to build something. You don't have to do this for a living to be a vital and contributing member of the Brigade.
 
-  ## We need volunteers to:
+## We need volunteers to:
 
   * Plan and Organize Hackathons & Hack Nights
   * Represent us to the Tech Community

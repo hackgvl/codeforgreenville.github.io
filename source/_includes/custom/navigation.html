@@ -11,6 +11,9 @@
 
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
+              <li {% if page.navbar == 'About' %}class="active"{% endif %}>
+                  <a href="{{ root_url }}/about">About</a>
+              </li>
                 <li {% if page.navbar == 'Blog' %}class="active"{% endif %}>
                     <a href="{{ root_url }}/">Blog</a>
                 </li>
