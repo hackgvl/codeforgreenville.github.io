@@ -3,6 +3,12 @@ This repo contains the blog site currently running codeforgreenville.org. The si
 
 Site Images are hosted [here on google drive](https://googledrive.com/host/0ByZDjdeJ4Y3SamhBVW)
 
+## ToDo
+- [ ] center meetup image in side bar
+- [ ] add open data page
+- [ ] insert CfG image banner under navbar
+- [ ] change favicon
+- [ ] add Brigade Positions Page
 
 ### Branches
 this repo has 2 branches: master and source. The source branch is where the files that generate the site are stored. The master branch is in the _deploy subfolder and contains the generated site files.

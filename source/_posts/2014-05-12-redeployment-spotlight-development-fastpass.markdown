@@ -3,10 +3,10 @@ layout: post
 title: "Redeployment Spotlight: Development FastPass"
 date: 2014-05-12 20:53:10 -0400
 comments: true
-categories: "Redeployment Spotlight"
+categories: "Redeployment"
 author: Wryen Meek
 ---
-{% img https://googledrive.com/host/0ByZDjdeJ4Y3SamhBVWlYdFljcWc/developmentfastpass.png
+{% img https://googledrive.com/host/0ByZDjdeJ4Y3SamhBVWlYdFljcWc/developmentfastpass.png %}
 # Application Details
 
 [GitHub Repository](https://github.com/codeforamerica/fast_pass)  

@@ -3,7 +3,7 @@ layout: post
 title: "Redeployment Spotlight: Honolulu Answers"
 date: 2014-05-07 21:16:25 -0400
 comments: true
-categories: "Redeployment Spotlight"
+categories: "Redeployment"
 author: Wryen Meek
 ---
 

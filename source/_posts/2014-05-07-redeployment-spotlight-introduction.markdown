@@ -3,7 +3,7 @@ layout: post
 title: "Redeployment Spotlight Introduction"
 date: 2014-05-07 16:33:29 -0400
 comments: true
-categories: "Redeployment Spotlight"
+categories: "Redeployment"
 author: Wryen Meek
 ---
 # About Redeployment & The Spotlight Series
