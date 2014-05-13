@@ -1,3 +1,25 @@
+# CodeforGreenville.org Site Notes
+This repo contains the blog site currently running codeforgreenville.org. The site is hosted using [github sites](https://pages.github.com/), built by the [Jekyll](http://jekyllrb.com/) static site generator, on the [Octopress Framework](http://octopress.org/), with the [Octostrap3 Theme](http://kaworu.github.io/octopress/).
+
+Site Images are hosted [here on google drive](https://googledrive.com/host/0ByZDjdeJ4Y3SamhBVW)
+
+
+### Branches
+this repo has 2 branches: master and source. The source branch is where the files that generate the site are stored. The master branch is in the _deploy subfolder and contains the generated site files.
+
+### Updates
+Site updates are generated locally based on source branch files with a `rake generate` command
+
+updated files are pushed to the master branch with `rake deploy`
+
+`rake gen_deploy` combines both commands
+
+use `rake preview` to view the locally generated site before deploying.
+
+don't forget to commit your changes on the source branch.
+
+# Octopress Details
+
 ## What is Octopress?
 
 Octopress is [Jekyll](https://github.com/mojombo/jekyll) blogging at its finest.
