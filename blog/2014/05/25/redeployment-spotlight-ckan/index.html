@@ -4,7 +4,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Redeployment Spotlight: Development FastPass - The Code for Greenville Brigade Blog</title>
+  <title>Redeployment Spotlight CKAN - The Code for Greenville Brigade Blog</title>
   <meta name="author" content="Code for Greenville Brigade">
 
   
@@ -16,7 +16,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://codeforgreenville.org/blog/2014/05/12/redeployment-spotlight-development-fastpass">
+  <link rel="canonical" href="http://codeforgreenville.org/blog/2014/05/25/redeployment-spotlight-ckan">
   <link href="/favicon.png" type="image/png" rel="icon">
   <link href="/atom.xml" rel="alternate" title="The Code for Greenville Brigade Blog" type="application/atom+xml">
 
@@ -101,7 +101,7 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-05-12T20:53:10-04:00" pubdate data-updated="true">May 12<span>th</span>, 2014</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-05-25T21:06:17-04:00" pubdate data-updated="true">May 25<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://codeforgreenville.org">Comments</a>
@@ -110,69 +110,77 @@
     
     
     <h1 class="entry-title">
-        Redeployment Spotlight: Development FastPass
+        Redeployment Spotlight CKAN
         
     </h1>
     
   </header>
 
 
-<div class="entry-content clearfix"><p><img src="https://googledrive.com/host/0ByZDjdeJ4Y3SamhBVWlYdFljcWc/developmentfastpass.png"></p>
+<div class="entry-content clearfix"><p><img src="https://googledrive.com/host/0ByZDjdeJ4Y3SamhBVWlYdFljcWc/ckan.png"></p>
 
 <h1>Application Details</h1>
 
-<p><a href="https://github.com/codeforamerica/fast_pass">GitHub Repository</a></p>
+<p><a href="https://github.com/okfn/ckan#sthash.sdB744rs.dpuf">GitHub Repository</a></p>
 
 <p>Live Sites:</p>
 
 <ul>
-<li> <a href="http://lv-fastpass.herokuapp.com/">Las Vegas Fast Pass</a></li>
+<li> <a href="http://www.data.gov/">US Government Data Portal</a></li>
+<li> <a href="http://data.gov.uk/">UK Government Data Portal</a></li>
+<li> <a href="http://data.denvergov.org/">City of Denver Data Portal</a></li>
+<li> <a href="http://healthdata.gov/">US Department of Health and Human Services Data Portal</a></li>
+<li> <a href="http://data.ohouston.org/">City of Huston Data Portal</a></li>
+<li> <a href="http://demo.ckan.org/">Demo Site</a></li>
 </ul>
 
 
-<p><a href="http://www.youtube.com/watch?v=_lTPz0Qp8sA">Concept and Use Video</a></p>
+<p><a href="http://vimeo.com/78249419">Concept and Use Video</a></p>
 
 <h1>What is it?</h1>
 
-<p>Development FastPass combines parcel data, land use, zoning, building occupancy, and business incentives to help business owners research the best options to locate their businesses within Las Vegas.</p>
+<p>Comprehensive Knowledge Archive Network (CKAN) is a web-based open source data management system for the storage and distribution of data, such as spreadsheets and the contents of databases. It is maintained by the <a href="http://us.okfn.org/">Open Knowledge Foundation</a>. It uses its internal model to store metadata about the different records, and presents it on a web interface that allows users to browse and search this metadata. It also offers an API that allows third-party applications and services to be built around it.</p>
 
 <h1>Evaluation for Greenville</h1>
 
 <h2>1. <strong>Will this App be helpful to the citizens of greenville?</strong></h2>
 
-<p>   This app helps make sense of a variety of local regulations regarding buisness location in a city. The app could be very useful in encouraging buisness growth in Greenville by making it simpler to find suitable locations for new businesses.</p>
+<p>Only indirectly. This application could be deployed by any city who wishes to launch their own data portal. It makes it much simpler for the community to build applications based on the data stored on it.</p>
 
 <h2>2. <strong>Will the citizens of greenville use this application?</strong></h2>
 
-<p>   if they are interested in starting a business its likely they will use it.</p>
+<p>This application is most useful to application developers, researchers, journalists, educators and businesses with an interest in civic data.</p>
 
 <h2>3. <strong>Has the App been re-deployed by another brigade?</strong></h2>
 
-<p>   no. it will likely have a variety of challenges or bugs to iron out.</p>
+<p>Yes. Open Oakland and Code for DC have deployed it for their cities.</p>
 
 <h2>4. <strong>What are the technical depedencies?</strong></h2>
 
 <ul>
-<li> <a href="http://nodejs.org/">NodeJS</a> &amp; <a href="http://expressjs.com/">ExpressJS</a></li>
-<li> The App Repository lacks robust redeployment documentation. We will likely have a good bit of figuring out to do.
-
-<h2>5. <strong>What are the data dependencies?</strong></h2>
-
-<p>This application will require access to experts on city development staff to help formalize rules &amp; regulations.</p></li>
-<li>. Zoning Rules need to be formalized</li>
-<li>. Parcel Data required (location and attributes)</li>
-<li>. City &amp; Neighborhood geographic definitions</li>
-<li>. Business Licensing Codes (needs to be mapped to North American Industry Classification System &ndash; NAICS)</li>
+<li>Python backend</li>
+<li>Javascript frontend</li>
+<li>Pylons web framework</li>
+<li>SQLAlchemy ORM</li>
+<li>PostgreSQL</li>
+<li>SOLR search</li>
+<li>modular architecture that allows extensions to be developed</li>
 </ul>
 
 
+<h2>5. <strong>What are the data dependencies?</strong></h2>
+
+<p>There are no data dependencies for this application.</p>
+
 <h2>6. <strong>How much does it cost to deploy and maintain?</strong></h2>
 
-<p>   unknown. Likely it will not cost much, its not a big application.</p>
+<p>Unknown. As a Portal for the Brigade hosting is likely minimal. OKFN offers hosted solutions from a variety of partners for city and national level portals so we can likely get a decent estimate from them when it comes time to deploy it for a local city.</p>
+
+<p><a href="http://datahub.io/">Datahub.io</a> is a web service based on CKAN which is community owned and driven. Not all of the CKAN functionality is available but it is free.</p>
 
 <h2>7. <strong>How can we contribute or improve the app if we deploy it?</strong></h2>
 
-<p>   Since it hasn&rsquo;t been redeployed a comprehensive redeployment guide would be a major contribution to the community.</p>
+<p>The project has an <a href="http://ckan.org/developers/roadmap/">extensive roadmap</a> we could contribute toward.</p>
 </div>
 
 
@@ -196,7 +204,7 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-05-12T20:53:10-04:00" pubdate data-updated="true">May 12<span>th</span>, 2014</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-05-25T21:06:17-04:00" pubdate data-updated="true">May 25<span>th</span>, 2014</time>
           
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
@@ -211,7 +219,7 @@
         
           <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://codeforgreenville.org/blog/2014/05/12/redeployment-spotlight-development-fastpass/" data-via="" data-counturl="http://codeforgreenville.org/blog/2014/05/12/redeployment-spotlight-development-fastpass/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://codeforgreenville.org/blog/2014/05/25/redeployment-spotlight-ckan/" data-via="" data-counturl="http://codeforgreenville.org/blog/2014/05/25/redeployment-spotlight-ckan/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -225,10 +233,8 @@
         
           <ul class="meta text-muted pager">
             
-            <li class="previous"><a href="/blog/2014/05/07/redeployment-spotlight-honolulu-answers/" title="Previous Post: Redeployment Spotlight: Honolulu Answers">&laquo; Redeployment Spotlight: Honolulu Answers</a></li>
+            <li class="previous"><a href="/blog/2014/05/25/redeployment-spotlight-ohana-api/" title="Previous Post: Redeployment Spotlight Ohana API">&laquo; Redeployment Spotlight Ohana API</a></li>
             
-            
-            <li class="next"><a href="/blog/2014/05/25/redeployment-spotlight-ohana-api/" title="Next Post: Redeployment Spotlight Ohana API">Redeployment Spotlight Ohana API &raquo;</a></li>
             
           </ul>
         
@@ -261,11 +267,11 @@
   
   <div id="recent_posts" class="list-group">
     
-    <a class="list-group-item " href="/blog/2014/05/25/redeployment-spotlight-ckan/">Redeployment Spotlight CKAN</a>
+    <a class="list-group-item active" href="/blog/2014/05/25/redeployment-spotlight-ckan/">Redeployment Spotlight CKAN</a>
     
     <a class="list-group-item " href="/blog/2014/05/25/redeployment-spotlight-ohana-api/">Redeployment Spotlight Ohana API</a>
     
-    <a class="list-group-item active" href="/blog/2014/05/12/redeployment-spotlight-development-fastpass/">Redeployment Spotlight: Development FastPass</a>
+    <a class="list-group-item " href="/blog/2014/05/12/redeployment-spotlight-development-fastpass/">Redeployment Spotlight: Development FastPass</a>
     
     <a class="list-group-item " href="/blog/2014/05/07/redeployment-spotlight-honolulu-answers/">Redeployment Spotlight: Honolulu Answers</a>
     
@@ -340,8 +346,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://codeforgreenville.org/blog/2014/05/12/redeployment-spotlight-development-fastpass/';
-        var disqus_url = 'http://codeforgreenville.org/blog/2014/05/12/redeployment-spotlight-development-fastpass/';
+        var disqus_identifier = 'http://codeforgreenville.org/blog/2014/05/25/redeployment-spotlight-ckan/';
+        var disqus_url = 'http://codeforgreenville.org/blog/2014/05/25/redeployment-spotlight-ckan/';
         var disqus_script = 'embed.js';
       
     (function () {

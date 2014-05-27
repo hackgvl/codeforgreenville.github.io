@@ -4,7 +4,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Redeployment Spotlight: Development FastPass - The Code for Greenville Brigade Blog</title>
+  <title>Redeployment Spotlight Ohana API - The Code for Greenville Brigade Blog</title>
   <meta name="author" content="Code for Greenville Brigade">
 
   
@@ -16,7 +16,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://codeforgreenville.org/blog/2014/05/12/redeployment-spotlight-development-fastpass">
+  <link rel="canonical" href="http://codeforgreenville.org/blog/2014/05/25/redeployment-spotlight-ohana-api">
   <link href="/favicon.png" type="image/png" rel="icon">
   <link href="/atom.xml" rel="alternate" title="The Code for Greenville Brigade Blog" type="application/atom+xml">
 
@@ -101,7 +101,7 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-05-12T20:53:10-04:00" pubdate data-updated="true">May 12<span>th</span>, 2014</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-05-25T21:05:58-04:00" pubdate data-updated="true">May 25<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://codeforgreenville.org">Comments</a>
@@ -110,69 +110,117 @@
     
     
     <h1 class="entry-title">
-        Redeployment Spotlight: Development FastPass
+        Redeployment Spotlight Ohana API
         
     </h1>
     
   </header>
 
 
-<div class="entry-content clearfix"><p><img src="https://googledrive.com/host/0ByZDjdeJ4Y3SamhBVWlYdFljcWc/developmentfastpass.png"></p>
+<div class="entry-content clearfix"><p><img src="https://googledrive.com/host/0ByZDjdeJ4Y3SamhBVWlYdFljcWc/ohanaapi.png"></p>
 
 <h1>Application Details</h1>
 
-<p><a href="https://github.com/codeforamerica/fast_pass">GitHub Repository</a></p>
+<p><a href="https://github.com/codeforamerica/ohana-api">API GitHub Repository</a><br/>
+<a href="https://github.com/codeforamerica/ohana-api-admin">Admin Site Repository</a>
+<a href="https://github.com/codeforamerica/openreferral/blob/master/openreferral.md">Open Referral Data Model</a>
+<a href="https://github.com/codeforamerica/ohanakapa-ruby">Search Site</a></p>
 
 <p>Live Sites:</p>
 
 <ul>
-<li> <a href="http://lv-fastpass.herokuapp.com/">Las Vegas Fast Pass</a></li>
+<li> <a href="http://ohana-api-demo.herokuapp.com/api">API</a></li>
+<li> <a href="http://ohana-api-admin-demo.herokuapp.com/">Admin</a></li>
+<li> <a href="https://github.com/codeforamerica/openreferral/blob/master/openreferral.md">Data Model</a></li>
+<li> <a href="http://www.smc-connect.org/">Search (site users would interact with)</a></li>
+<li> <a href="https://github.com/marks/ohana-sms">SMS interface</a></li>
 </ul>
 
 
-<p><a href="http://www.youtube.com/watch?v=_lTPz0Qp8sA">Concept and Use Video</a></p>
+<p><a href="http://www.youtube.com/watch?v=KLXZ4nGJkYc">Concept and Use Video</a></p>
 
 <h1>What is it?</h1>
 
-<p>Development FastPass combines parcel data, land use, zoning, building occupancy, and business incentives to help business owners research the best options to locate their businesses within Las Vegas.</p>
+<p>The <a href="http://ohanapi.org/">Ohana API</a> is an open directory of social services. The API itself is a database and set of commands (Aplication Programming Interface or API) that allows the database to be changed in a standardized way. It comes with and Admin Site to permit organizations to update their own information. It also comes with a Search Site to consume the API data and display the information to users. The whole thing is based on the Open Referral Data Model. There is also an SMS interface powered(Relevant Links above)</p>
 
 <h1>Evaluation for Greenville</h1>
 
 <h2>1. <strong>Will this App be helpful to the citizens of greenville?</strong></h2>
 
-<p>   This app helps make sense of a variety of local regulations regarding buisness location in a city. The app could be very useful in encouraging buisness growth in Greenville by making it simpler to find suitable locations for new businesses.</p>
-
-<h2>2. <strong>Will the citizens of greenville use this application?</strong></h2>
-
-<p>   if they are interested in starting a business its likely they will use it.</p>
-
-<h2>3. <strong>Has the App been re-deployed by another brigade?</strong></h2>
-
-<p>   no. it will likely have a variety of challenges or bugs to iron out.</p>
-
-<h2>4. <strong>What are the technical depedencies?</strong></h2>
-
 <ul>
-<li> <a href="http://nodejs.org/">NodeJS</a> &amp; <a href="http://expressjs.com/">ExpressJS</a></li>
-<li> The App Repository lacks robust redeployment documentation. We will likely have a good bit of figuring out to do.
-
-<h2>5. <strong>What are the data dependencies?</strong></h2>
-
-<p>This application will require access to experts on city development staff to help formalize rules &amp; regulations.</p></li>
-<li>. Zoning Rules need to be formalized</li>
-<li>. Parcel Data required (location and attributes)</li>
-<li>. City &amp; Neighborhood geographic definitions</li>
-<li>. Business Licensing Codes (needs to be mapped to North American Industry Classification System &ndash; NAICS)</li>
+<li>It would be very helpful to the citizens using county or non profit social services to navigate a complete system.</li>
+<li>It would be helpful to social service case workers guiding individuals and families thought the assistance landscape.</li>
+<li>It would be helpful to greenville county non profits to know which orgnaizations to get users from and which organizations to send users to once their mission is complete.</li>
 </ul>
 
 
-<h2>6. <strong>How much does it cost to deploy and maintain?</strong></h2>
+<h2>2. <strong>Will the citizens of greenville use this application?</strong></h2>
 
-<p>   unknown. Likely it will not cost much, its not a big application.</p>
+<p> If citizens know about it and need the services they are likely to use it. The key will be on-boarding social service organizations and teaching their staff to use the search site in their day to day workflow. Once the service organizations are using it and sharing it with their constituents are likely to follow suit. We will need to educate common public internet access points like the county libraries that the site exists and how to use it.</p>
+
+<h2>3. <strong>Has the App been re-deployed by another brigade?</strong></h2>
+
+<p> No</p>
+
+<h2>4. <strong>What are the technical depedencies?</strong></h2>
+
+<h4>API Dependencies</h4>
+
+<ul>
+<li>PostgresDB</li>
+<li>Human Services Data Specification</li>
+<li>Ruby version 2.1.1</li>
+<li>Rails version 4.0.4</li>
+<li>Redis</li>
+<li>API framework: Grape</li>
+<li>Testing Frameworks: RSpec, Factory Girl, Capybara</li>
+<li><a href="https://github.com/codeforamerica/ohana-api-dev-box">OSX VM</a></li>
+<li>Heroku Deployment</li>
+</ul>
+
+
+<h4>Admin Site Dependencies</h4>
+
+<ul>
+<li>Ruby version 2.1.1</li>
+<li>Rails version 3.2.16</li>
+<li>MongoDB with the Mongoid ORM</li>
+<li>Testing Frameworks: RSpec, Factory Girl, Capybara</li>
+<li>Heroku Deployment</li>
+</ul>
+
+
+<h4>Search Site Dependencies</h4>
+
+<ul>
+<li>Ruby version 2.1.1</li>
+<li>Rails version 4.0.4</li>
+<li>Template Engines: ERB and HAML</li>
+<li>Testing Frameworks: RSpec, Capybara and capybara-webkit</li>
+<li>OSX and Linux Deployment Options</li>
+</ul>
+
+
+<h4>SMS Interface Dependencies</h4>
+
+<ul>
+<li>Ruby (version?)</li>
+<li>Heroku Deployment</li>
+<li><a href="https://www.tropo.com/">Tropo</a></li>
+</ul>
+
+
+<h2>5. <strong>How much does it cost to deploy and maintain?</strong></h2>
+
+<p>Unknown. We might be able to run the entire suite on a docker server and keep it pretty cheap. We need to chat with the SMC site maintainers to get a better idea of how the application scales with use. The SMS component might have additional usage fees via the Tropo service.</p>
+
+<h2>6. <strong>What are the data dependencies?</strong></h2>
+
+<p>There are no civic data dependencies. Greenville County and City services could be added at anytime. Municipal partners could be trained to update their own information or an annual civic write-a-thon event could be held to update the information on behalf of the city.</p>
 
 <h2>7. <strong>How can we contribute or improve the app if we deploy it?</strong></h2>
 
-<p>   Since it hasn&rsquo;t been redeployed a comprehensive redeployment guide would be a major contribution to the community.</p>
+<p> A community guide to redeployment and a streamlined Docker deployment process would be very helpful.</p>
 </div>
 
 
@@ -181,7 +229,7 @@
           
   
 
-<span class="glyphicon glyphicon-user"></span> <span class="byline author vcard">Posted by <span class="fn">Wryen Meek</span></span>
+<span class="glyphicon glyphicon-user"></span> <span class="byline author vcard">Posted by <span class="fn">Code for Greenville Brigade</span></span>
 
           
 
@@ -196,7 +244,7 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-05-12T20:53:10-04:00" pubdate data-updated="true">May 12<span>th</span>, 2014</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-05-25T21:05:58-04:00" pubdate data-updated="true">May 25<span>th</span>, 2014</time>
           
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
@@ -211,7 +259,7 @@
         
           <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://codeforgreenville.org/blog/2014/05/12/redeployment-spotlight-development-fastpass/" data-via="" data-counturl="http://codeforgreenville.org/blog/2014/05/12/redeployment-spotlight-development-fastpass/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://codeforgreenville.org/blog/2014/05/25/redeployment-spotlight-ohana-api/" data-via="" data-counturl="http://codeforgreenville.org/blog/2014/05/25/redeployment-spotlight-ohana-api/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -225,10 +273,10 @@
         
           <ul class="meta text-muted pager">
             
-            <li class="previous"><a href="/blog/2014/05/07/redeployment-spotlight-honolulu-answers/" title="Previous Post: Redeployment Spotlight: Honolulu Answers">&laquo; Redeployment Spotlight: Honolulu Answers</a></li>
+            <li class="previous"><a href="/blog/2014/05/12/redeployment-spotlight-development-fastpass/" title="Previous Post: Redeployment Spotlight: Development FastPass">&laquo; Redeployment Spotlight: Development FastPass</a></li>
             
             
-            <li class="next"><a href="/blog/2014/05/25/redeployment-spotlight-ohana-api/" title="Next Post: Redeployment Spotlight Ohana API">Redeployment Spotlight Ohana API &raquo;</a></li>
+            <li class="next"><a href="/blog/2014/05/25/redeployment-spotlight-ckan/" title="Next Post: Redeployment Spotlight CKAN">Redeployment Spotlight CKAN &raquo;</a></li>
             
           </ul>
         
@@ -263,9 +311,9 @@
     
     <a class="list-group-item " href="/blog/2014/05/25/redeployment-spotlight-ckan/">Redeployment Spotlight CKAN</a>
     
-    <a class="list-group-item " href="/blog/2014/05/25/redeployment-spotlight-ohana-api/">Redeployment Spotlight Ohana API</a>
+    <a class="list-group-item active" href="/blog/2014/05/25/redeployment-spotlight-ohana-api/">Redeployment Spotlight Ohana API</a>
     
-    <a class="list-group-item active" href="/blog/2014/05/12/redeployment-spotlight-development-fastpass/">Redeployment Spotlight: Development FastPass</a>
+    <a class="list-group-item " href="/blog/2014/05/12/redeployment-spotlight-development-fastpass/">Redeployment Spotlight: Development FastPass</a>
     
     <a class="list-group-item " href="/blog/2014/05/07/redeployment-spotlight-honolulu-answers/">Redeployment Spotlight: Honolulu Answers</a>
     
@@ -340,8 +388,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://codeforgreenville.org/blog/2014/05/12/redeployment-spotlight-development-fastpass/';
-        var disqus_url = 'http://codeforgreenville.org/blog/2014/05/12/redeployment-spotlight-development-fastpass/';
+        var disqus_identifier = 'http://codeforgreenville.org/blog/2014/05/25/redeployment-spotlight-ohana-api/';
+        var disqus_url = 'http://codeforgreenville.org/blog/2014/05/25/redeployment-spotlight-ohana-api/';
         var disqus_script = 'embed.js';
       
     (function () {
