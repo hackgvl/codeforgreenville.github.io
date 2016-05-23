@@ -1,82 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
-    <url>
-        <loc>http://codeforgreenville.org/blog/2014/05/07/hello-world/</loc>
-        <lastmod>2014-05-07T17:45:14-04:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://codeforgreenville.org/blog/2014/05/07/redeployment-spotlight-introduction/
-        </loc>
-        <lastmod>2014-05-12T22:37:07-04:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://codeforgreenville.org/blog/2014/05/07/redeployment-spotlight-honolulu-answers/
-        </loc>
-        <lastmod>2014-05-26T10:59:40-04:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://codeforgreenville.org/blog/2014/05/12/redeployment-spotlight-development-fastpass/
-        </loc>
-        <lastmod>2014-05-26T10:59:02-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://codeforgreenville.org/blog/2014/05/25/redeployment-spotlight-ohana-api/</loc>
-        <lastmod>2014-05-26T21:21:36-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://codeforgreenville.org/blog/2014/05/25/redeployment-spotlight-ckan/</loc>
-        <lastmod>2014-05-26T21:21:03-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://codeforgreenville.org/about/</loc>
-        <lastmod>2014-05-11T18:53:42-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://codeforgreenville.org/assets/bootstrap/docs/about.html</loc>
-        <lastmod>2014-05-07T14:42:41-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://codeforgreenville.org/assets/bootstrap/docs/components.html</loc>
-        <lastmod>2014-05-07T14:42:41-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://codeforgreenville.org/assets/bootstrap/docs/css.html</loc>
-        <lastmod>2014-05-07T14:42:41-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://codeforgreenville.org/assets/bootstrap/docs/customize.html</loc>
-        <lastmod>2014-05-07T14:42:41-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://codeforgreenville.org/assets/bootstrap/docs/getting-started.html</loc>
-        <lastmod>2014-05-07T14:42:41-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://codeforgreenville.org/assets/bootstrap/docs/</loc>
-        <lastmod>2014-05-26T21:21:36-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://codeforgreenville.org/assets/bootstrap/docs/javascript.html</loc>
-        <lastmod>2014-05-07T14:42:41-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://codeforgreenville.org/assets/bootstrap/docs/migration.html</loc>
-        <lastmod>2014-05-07T14:42:41-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://codeforgreenville.org/blog/archives/</loc>
-        <lastmod>2014-05-26T21:21:36-04:00</lastmod>
-    </url>
+
     <url>
         <loc>http://codeforgreenville.org/</loc>
         <lastmod>2014-05-26T21:21:36-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://codeforgreenville.org/open-data/</loc>
-        <lastmod>2014-05-11T14:37:34-04:00</lastmod>
     </url>
     <url>
         <loc>http://codeforgreenville.org/robots.txt</loc>
