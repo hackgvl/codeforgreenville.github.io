@@ -21,8 +21,8 @@
 title: Code for Greenville
 description: 'Mentoring, Inspiring, and Innovating Local Tech <br>
   We are the <a href="https://www.visitgreenvillesc.com/about-greenville/all-about-greenville/destination-overview/">#YeahThatGreenville</a> Code for America Brigade.'
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://dev.bamatech.org:4000" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
