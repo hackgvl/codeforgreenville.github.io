@@ -1,0 +1,63 @@
+.navbar-brand img {
+    height: 50px;
+    margin-top: 26px;
+}
+
+#bs-example-navbar-collapse-1 {
+    padding-left: 90px;
+}
+
+#center-labels h2 {
+    font-weight: bold;
+}
+
+@media (min-width: 1204px){
+    #session {
+        margin-top: 20px;
+        position:absolute;
+        right: 0px;
+        top: 0px;
+    }
+}
+
+@media (max-width: 124px){
+#session {
+    position:static;
+}
+
+}
+
+#session img{
+    height: 100%;
+    width: 100%;
+}
+
+#projects {
+    margin-left: 25%;
+}
+
+td, th {
+    border-spacing: 10px;
+    padding: 10px;
+}
+
+#footer-links {
+    height:150px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.left {
+    margin-right: 15px;
+}
+
+.right{
+    margin-left: 15px;
+}
+
+#github-icon {
+    height: 25%;
+    width: 75%;
+    margin: 0 auto;
+}

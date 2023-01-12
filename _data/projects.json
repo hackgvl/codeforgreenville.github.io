@@ -1,0 +1,14 @@
+[
+    {"link":"https://github.com/codeforgreenville/OpenData/blob/master/ORGANIZATIONS_API.md","label": "Open Data Organizations API","desc":"Public API for Open Data Organization info", "status": "Active"},
+    {"link":"https://github.com/codeforgreenville/upstate_tech_cal_service#readme" ,"label": "Events API","desc":"Public API for Event info",  "status":"Active"},
+    {"link":"https://github.com/codeforgreenville/OpenData/blob/master/MAPS_API.md","label": "Open Data Api and Map Layers","desc":"Public API for Map Layers",  "status":"Active"},
+    {"link":"https://github.com/codeforgreenville/hackgreenville-com#readme" ,"label": "Hackgreenville.com","desc":"Tech Events in Greenville, SC",  "status":"Active"},
+    {"link":"https://github.com/codeforgreenville/c4g-events#readme" ,"label": "Hack Greenville Slack (Bot) Integrations","desc":"Code for Greenville events",  "status":"Active"},
+    {"link":"https://medium.com/code-for-america/closing-the-delivery-gap-making-good-on-the-promise-of-californias-record-clearance-laws-5968b4b9278b",
+    "label": "Clear My Record","desc":"Criminal Record Expungement", "status":"Under Consideration"},
+    {"link":"https://github.com/codeforgreenville/public-art/issues" , "label": "Integrated / Interactive Street Art","desc":"Augmented reality art project", "status":"Under Consideration"},
+    {"link":"https://greenvillecodes.org" ,"label": "Greenville Codes", "desc":"free, part-time code education", "status":"Under Consideration"},
+    {"link":"https://github.com/codeforgreenville?utf8=%E2%9C%93&q=trolley&type=&language=" ,
+    "label": "<small>Trolley Tracker - from 2014-2021, Code For Greenville members built and maintained technology <br> which allowed thousands of locals and visitors to track the downtown Greenville trolleys</small>",
+    "desc":"Live Trolley Tracking", "status":"Retired"}
+]
