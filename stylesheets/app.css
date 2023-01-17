@@ -12,28 +12,46 @@
 }
 
 @media (min-width: 1204px){
-    #session {
+    #session{
         margin-top: 20px;
+        margin-left:250px;
+        margin-right: 10px;
         position:absolute;
         right: 0px;
         top: 0px;
     }
-}
-
-@media (max-width: 124px){
-#session {
-    position:static;
-}
+    #session img {
+        height: 75%;
+        width: 75%
+    }
 
 }
 
-#session img{
-    height: 100%;
-    width: 100%;
+ul {
+    text-decoration: none;
 }
 
-#projects {
-    margin-left: 25%;
+@media (max-width: 1204px){
+    #session{
+        position:static;
+        margin-top: 50px;
+    }
+    #session img {
+        height: 50%;
+        width: 50%;
+    }
+
+}
+@media (min-width: 766px){
+    #projects {
+        margin-left: 25%;
+    }
+}
+@media (max-width: 765px){
+    #projects {
+        margin-top: 50px;
+        margin-left: 0%;
+    }
 }
 
 td, th {

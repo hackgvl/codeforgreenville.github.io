@@ -3,8 +3,7 @@
     <table>
         {% for project in site.data.projects%}
         {% if project %}
-            <tr><td><a href="{{project.link}}">{{project.label}}</a></td><td>{{project.desc}}</td><td><span>{{project.status}}</span></td></tr>
-            <tr><td><a href="https://www.github.com/codeforgreenville"><img src="images/icons8-github-48.png" alt=""></a></td></tr>
+            <tr><td><a href="{{project.link}}">{{project.label}}</a></td><td>{{project.desc}}</td><td><span>{{project.status}}</span></td><td><img src="images/icons8-github-48.png" alt=""></td></tr>
         {% endif%}
         {% endfor %}
     </table>
