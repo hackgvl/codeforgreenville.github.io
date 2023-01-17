@@ -42,12 +42,12 @@ ul {
     }
 
 }
-@media (min-width: 1204px){
+@media (min-width: 766px){
     #projects {
         margin-left: 25%;
     }
 }
-@media (max-width: 1204px){
+@media (max-width: 765px){
     #projects {
         margin-top: 50px;
         margin-left: 0%;
@@ -60,7 +60,7 @@ td, th {
 }
 
 tr:nth-child(even) {
-    background-color: #d8d8c5;
+    background-color: rgb(221, 210, 195);
 }
 
 #footer-links {
