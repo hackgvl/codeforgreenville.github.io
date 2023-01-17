@@ -59,6 +59,10 @@ td, th {
     padding: 10px;
 }
 
+tr:nth-child(even) {
+    background-color: rgb(219, 209, 197);
+}
+
 #footer-links {
     height:150px;
     width: 50%;
