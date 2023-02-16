@@ -1,0 +1,85 @@
+.navbar-brand img {
+    height: 50px;
+    margin-top: 26px;
+}
+
+#bs-example-navbar-collapse-1 {
+    padding-left: 90px;
+}
+
+#center-labels h2 {
+    font-weight: bold;
+}
+
+@media (min-width: 1204px){
+    #session{
+        margin-top: 20px;
+        margin-left:250px;
+        margin-right: 10px;
+        position:absolute;
+        right: 0px;
+        top: 0px;
+    }
+    #session img {
+        height: 75%;
+        width: 75%
+    }
+
+}
+
+ul {
+    text-decoration: none;
+}
+
+@media (max-width: 1204px){
+    #session{
+        position:static;
+        margin-top: 50px;
+    }
+    #session img {
+        height: 50%;
+        width: 50%;
+    }
+
+}
+@media (min-width: 766px){
+    #projects {
+        margin-left: 25%;
+    }
+}
+@media (max-width: 765px){
+    #projects {
+        margin-top: 50px;
+        margin-left: 0%;
+    }
+}
+
+td, th {
+    border-spacing: 10px;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(219, 209, 197);
+}
+
+#footer-links {
+    height:150px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.left {
+    margin-right: 15px;
+}
+
+.right{
+    margin-left: 15px;
+}
+
+#github-icon {
+    height: 25%;
+    width: 75%;
+    margin: 0 auto;
+}
