@@ -1,0 +1,89 @@
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+    font-size: 1em;
+}
+
+header {
+    background-color: white;
+}
+
+header,
+#projects,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.content-wrapper {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    border: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: .8rem;
+    color: darkgray;
+    font-weight: bold;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Header */
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+header nav figure {
+    width: 15%;
+}
+
+nav ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Projects */
+
+td, th {
+    border-spacing: 10px;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(219, 209, 197);
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
