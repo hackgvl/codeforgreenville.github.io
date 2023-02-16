@@ -1,3 +1,30 @@
+html {
+    font-size: 1em;
+}
+
+header,
+#projects,
+footer {
+    display: flex;
+
+}
+
+.content-wrapper {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
 .navbar-brand img {
     height: 50px;
     margin-top: 26px;
@@ -25,33 +52,6 @@
         width: 75%
     }
 
-}
-
-ul {
-    text-decoration: none;
-}
-
-@media (max-width: 1204px){
-    #session{
-        position:static;
-        margin-top: 50px;
-    }
-    #session img {
-        height: 50%;
-        width: 50%;
-    }
-
-}
-@media (min-width: 766px){
-    #projects {
-        margin-left: 25%;
-    }
-}
-@media (max-width: 765px){
-    #projects {
-        margin-top: 50px;
-        margin-left: 0%;
-    }
 }
 
 td, th {
