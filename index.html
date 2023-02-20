@@ -44,9 +44,12 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
   <!-- End Favicon -->
-
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/a4cb0941c3.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -80,10 +83,10 @@
                 </div>
                 <div class="header-title">
                     <h1>Code for Greenville</h1>
-                    <h3>A <a href="https://www.codeforamerica.org">Code for America</a> Brigade</h3>
-                    <p>Mentoring, Inspiring, and Innovating Local Tech</p>
-                    <p>We are the <a href="https://www.visitgreenvillesc.com/about-greenville/all-about-greenville/destination-overview/">#YeahThatGreenville</a> Code for America Brigade.
-                    </p>
+                    <h2>A <a href="https://www.codeforamerica.org">Code for America</a> Brigade</h3>
+                    <h3>Mentoring, Inspiring, and Innovating Local Tech</h3>
+                    <h3>We are the <a href="https://www.visitgreenvillesc.com/about-greenville/all-about-greenville/destination-overview/">#YeahThatGreenville</a> Code for America Brigade.
+                    </h3>
                 </div>
             </div>
         </div>
@@ -92,33 +95,64 @@
         <div class="content-wrapper">
             <h2>Our Projects</h2>
             <table>
+                <caption>
+                    <h3>
+                        Summary of Code for Greenville projects
+                    </h3>
+                </caption>
+                <thead>
                     <tr>
-                        <td><a href="https://github.com/codeforgreenville/OpenData/blob/master/ORGANIZATIONS_API.md">Open Data Organizations API</a></td><td>Public API for Open Data Organization info</td><td><span>Active</span></td><td><img src="images/icons8-github-48.png" alt=""></td>
+                        <th scope="col" span="3">Project</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://github.com/codeforgreenville/OpenData/blob/master/ORGANIZATIONS_API.md">Open Data Organizations API</a> <i class="fa-brands fa-github"></i>
+                        </td>
+                        <td>Public API for Open Data Organization info</td>
+                        <td><span>Active</span></td>
                     </tr>
                     <tr>
-                        <td><a href="https://github.com/codeforgreenville/upstate_tech_cal_service#readme">Events API</a></td><td>Public API for Event info</td><td><span>Active</span></td><td><img src="images/icons8-github-48.png" alt=""></td>
+                        <td><a href="https://github.com/codeforgreenville/upstate_tech_cal_service#readme">Events API</a></td>
+                        <td>Public API for Event info</td>
+                        <td><span>Active</span></td>
                     </tr>
                     <tr>
-                        <td><a href="https://github.com/codeforgreenville/OpenData/blob/master/MAPS_API.md">Open Data Api and Map Layers</a></td><td>Public API for Map Layers</td><td><span>Active</span></td><td><img src="images/icons8-github-48.png" alt=""></td>
+                        <td><a href="https://github.com/codeforgreenville/OpenData/blob/master/MAPS_API.md">Open Data Api and Map Layers</a></td>
+                        <td>Public API for Map Layers</td>
+                        <td><span>Active</span></td>
                     </tr>
                     <tr>
-                        <td><a href="https://github.com/codeforgreenville/hackgreenville-com#readme">Hackgreenville.com</a></td><td>Tech Events in Greenville, SC</td><td><span>Active</span></td><td><img src="images/icons8-github-48.png" alt=""></td>
+                        <td><a href="https://github.com/codeforgreenville/hackgreenville-com#readme">Hackgreenville.com</a></td>
+                        <td>Tech Events in Greenville, SC</td>
+                        <td><span>Active</span></td>
                     </tr>
                     <tr>
-                        <td><a href="https://github.com/codeforgreenville/c4g-events#readme">Hack Greenville Slack (Bot) Integrations</a></td><td>Code for Greenville events</td><td><span>Active</span></td><td><img src="images/icons8-github-48.png" alt=""></td>
+                        <td><a href="https://github.com/codeforgreenville/c4g-events#readme">Hack Greenville Slack (Bot) Integrations</a></td>
+                        <td>Code for Greenville events</td>
+                        <td><span>Active</span></td>
                     </tr>
                     <tr>
-                        <td><a href="https://medium.com/code-for-america/closing-the-delivery-gap-making-good-on-the-promise-of-californias-record-clearance-laws-5968b4b9278b">Clear My Record</a></td><td>Criminal Record Expungement</td><td><span>Under Consideration</span></td><td><img src="images/icons8-github-48.png" alt=""></td>
+                        <td><a href="https://medium.com/code-for-america/closing-the-delivery-gap-making-good-on-the-promise-of-californias-record-clearance-laws-5968b4b9278b">Clear My Record</a></td>
+                        <td>Criminal Record Expungement</td>
+                        <td><span>Under Consideration</span></td>
                     </tr>
                     <tr>
-                        <td><a href="https://github.com/codeforgreenville/public-art/issues">Integrated / Interactive Street Art</a></td><td>Augmented reality art project</td><td><span>Under Consideration</span></td><td><img src="images/icons8-github-48.png" alt=""></td>
+                        <td><a href="https://github.com/codeforgreenville/public-art/issues">Integrated / Interactive Street Art</a></td>
+                        <td>Augmented reality art project</td>
+                        <td><span>Under Consideration</span></td>
                     </tr>
                     <tr>
-                        <td><a href="https://greenvillecodes.org">Greenville Codes</a></td><td>free, part-time code education</td><td><span>Under Consideration</span></td><td><img src="images/icons8-github-48.png" alt=""></td>
+                        <td><a href="https://greenvillecodes.org">Greenville Codes</a></td><td>free, part-time code education</td><td><span>Under Consideration</span></td>
                     </tr>
                     <tr>
-                        <td><a href="https://github.com/codeforgreenville?utf8=%E2%9C%93&q=trolley&type=&language="><small>Trolley Tracker - from 2014-2021, Code For Greenville members built and maintained technology <br> which allowed thousands of locals and visitors to track the downtown Greenville trolleys</small></a></td><td>Live Trolley Tracking</td><td><span>Retired</span></td><td><img src="images/icons8-github-48.png" alt=""></td>
+                        <td><a href="https://github.com/codeforgreenville?utf8=%E2%9C%93&q=trolley&type=&language="><small>Trolley Tracker - from 2014-2021, Code For Greenville members built and maintained technology <br> which allowed thousands of locals and visitors to track the downtown Greenville trolleys</small></a></td>
+                        <td>Live Trolley Tracking</td>
+                        <td><span>Retired</span></td>
                     </tr>
+                </tbody>
             </table>
         </div>
     </main>
@@ -129,7 +163,7 @@
         <div id="footer-links">
             <p>
                 <span class="left"><a href="https://data.openupstate.org/contact/join_code_for_greenville_slack">Join Slack</a></span>
-		<span class="right"><a href="""https://codeforgreenville.org/about/code-of-conduct">Code of Conduct</a></span>
+		<span class="right"><a href="https://codeforgreenville.org/about/code-of-conduct">Code of Conduct</a></span>
             </p>
             <p class="center">
                 <div id="github-icon">
