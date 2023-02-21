@@ -91,18 +91,22 @@ header nav figure {
     margin: 0;
 }
 
-.code-gvl-logo {
+/* .code-gvl-logo {
     filter: drop-shadow(1px 2px 6px #5bc2a7);
-}
+} */
 
 nav ul {
     width: 60%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
     text-align: left;
     font-size: .9rem;
-    padding: 0px;
+    padding: 0;
+}
+
+nav ul li a {
+    padding: 0 10px;
 }
 
 h2 a {
@@ -146,20 +150,64 @@ table a {
     font-weight: bold;
 }
 
-table i {
-    font-size: 1.2rem;
+.project-link i {
+    color: #443850;
+    font-size: 1.5rem;
 }
 
 .status-symbol {
     color: black;
     border: 1px solid black;
-    padding: .25rem .75rem;
+    padding: .25rem;
     border-radius: 25px;
 }
 
 span.active {
     color: green;
     border: 1px solid green;
+}
+
+span.under-consideration {
+    color: gold;
+    border: 1px solid gold;
+}
+
+span.retired{
+    color: red;
+    border: 1px solid red;
+}
+
+/* Connect */
+footer .content-wrapper {
+    flex-flow: column;
+}
+
+#footer-links {
+    display: flex;
+    justify-content: center;
+}
+
+#footer-links ul {
+    display: flex;
+    flex-wrap: row-wrap;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer-links li {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+}
+
+#footer-links a {
+    color: #443850;
+    text-decoration: none;
+    font-size: 2rem;
 }
 
 /******************************************
