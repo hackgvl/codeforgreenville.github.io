@@ -8,7 +8,7 @@ html {
 }
 
 header {
-    background-color: white;
+    background-color: #ffffff;
 }
 
 header,
@@ -19,7 +19,7 @@ footer {
     align-items: center;
     flex-flow: row wrap;
     text-align: center;
-    padding: 30px 0;
+    padding: 15px 0;
 }
 
 .content-wrapper {
@@ -46,7 +46,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: #515967;
+    color: #201748;
     font-weight: bold;
 }
 
@@ -87,16 +87,17 @@ header nav {
 }
 
 header nav figure {
-    width: 10%;
+    width: 25%;
     margin: 0;
 }
 
-/* .code-gvl-logo {
-    filter: drop-shadow(1px 2px 6px #5bc2a7);
-} */
+.code-gvl-logo {
+    /* filter: drop-shadow(1px 2px 6px #5bc2a7); */
+    max-width: 75px;
+}
 
 nav ul {
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -109,12 +110,23 @@ nav ul li a {
     padding: 0 10px;
 }
 
+.join-slack {
+    color: black;
+    background-color: #5bc2a7;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+.hero-image figure {
+    background-size:cover ;
+}
+
 h2 a {
-    color: #443850;
+    color: #;
 }
 
 h3 a {
-    color: #5bc2a7;
+    color: #006341;
 }
 
 /* Projects */
@@ -141,9 +153,9 @@ td, th {
     padding: 10px;
 }
 
-tr:nth-child(even) {
+/* tr:nth-child(even) {
     background-color: #ede2f3;
-}
+} */
 
 table a {
     color: black;
@@ -163,21 +175,25 @@ table a {
 }
 
 span.active {
-    color: green;
-    border: 1px solid green;
+    color: #5bc2a7;
+    border: 1px solid #5bc2a7;
 }
 
 span.under-consideration {
-    color: gold;
-    border: 1px solid gold;
+    color: #ffa300;
+    border: 1px solid #ffa300;
 }
 
 span.retired{
-    color: red;
-    border: 1px solid red;
+    color: #201647;
+    border: 1px solid #201647;
 }
 
 /* Connect */
+footer {
+    background: #ede2f3;
+}
+
 footer .content-wrapper {
     flex-flow: column;
 }
@@ -205,7 +221,7 @@ footer .content-wrapper {
 }
 
 #footer-links a {
-    color: #443850;
+    color: #201647;
     text-decoration: none;
     font-size: 2rem;
 }
