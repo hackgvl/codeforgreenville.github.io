@@ -59,11 +59,19 @@ h1 {
 }
 
 h2 {
-    font-size: 1.6rem;
+    font-size: 1.75rem;
 }
 
 h3, h4 {
     font-family: 'Arimo', sans-serif;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-size: 1.1rem;
 }
 
 /******************************************
@@ -83,6 +91,10 @@ header nav figure {
     margin: 0;
 }
 
+.code-gvl-logo {
+    filter: drop-shadow(1px 2px 6px #5bc2a7);
+}
+
 nav ul {
     width: 60%;
     display: flex;
@@ -93,12 +105,12 @@ nav ul {
     padding: 0px;
 }
 
-h3 a {
-    color: #601b88;
+h2 a {
+    color: #443850;
 }
 
-p a {
-    color: #205b54;
+h3 a {
+    color: #5bc2a7;
 }
 
 /* Projects */
@@ -107,7 +119,8 @@ table {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
-    font-size: .85rem;
+    font-size: .9rem;
+    margin: 25px 0;
 }
 
 th {
@@ -125,7 +138,28 @@ td, th {
 }
 
 tr:nth-child(even) {
-    background-color: rgb(219, 209, 197);
+    background-color: #ede2f3;
+}
+
+table a {
+    color: black;
+    font-weight: bold;
+}
+
+table i {
+    font-size: 1.2rem;
+}
+
+.status-symbol {
+    color: black;
+    border: 1px solid black;
+    padding: .25rem .75rem;
+    border-radius: 25px;
+}
+
+span.active {
+    color: green;
+    border: 1px solid green;
 }
 
 /******************************************
