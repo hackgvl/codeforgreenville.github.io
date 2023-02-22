@@ -63,7 +63,11 @@
                         <img src="imgs/apple-icon-no-border.png" alt="Code for Greenville logo">
                         </a>
                     </figure>
-                    <ul>
+                    <h3 class="site-title">Code for Greenville</h3>
+                    <button class="dropdown-button">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <ul class="dropdown-menu" id="dropdown-menu">
                         <li>
                             <a href="https://www.meetup.com/Code-for-Greenville/events/">Events</a>
                         </li>
@@ -94,9 +98,25 @@
             </div>
         </header>
         <main>
-            <div class="content-wrapper">
+            <div id="projects" class="content-wrapper">
                 <h2>Our Projects</h2>
-                <table class="styled-table">
+                <ul class="project-content">
+                    <li class="project-block">
+                        <article>
+                            <figure>
+                                <a href="https://github.com/codeforgreenville/OpenData" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </figure>
+                            <h4 class="project-title">
+                                Open Data Organizations API
+                            </h4>
+                            <span class="status-symbol active">Active</span>
+                            <p class="project-description">Public API for Open Data Organization information</p>
+                        </article>
+                    </li>
+                </ul>
+                <!-- <table class="styled-table">
                     <colgroup>
                         <col style="width: 7.5%;">
                         <col style="width: 30%;">
@@ -225,7 +245,7 @@
                             <td><span class="status-symbol retired">Retired</span></td>
                         </tr>
                     </tbody>
-                </table>
+                </table> -->
             </div>
         </main>
         <footer>
@@ -255,7 +275,7 @@
         </footer>
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="javascripts/bootstrap.min.js"></script>     
+        <script src="js/main.js"></script>     
         
     </body>
 </html>

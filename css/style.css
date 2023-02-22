@@ -52,6 +52,7 @@ a {
 
 h1, h2 {
     font-family: 'Roboto', sans-serif;
+    color: #201748;
 }
 
 h1 {
@@ -80,10 +81,15 @@ h4 {
 
 /* Header */
 
+header {
+    padding-top: 5px;
+}
+
 header nav {
     width: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header nav figure {
@@ -94,6 +100,68 @@ header nav figure {
 .code-gvl-logo {
     /* filter: drop-shadow(1px 2px 6px #5bc2a7); */
     max-width: 75px;
+}
+
+.site-title {
+    color: #201748;
+}
+
+.dropdown-button {
+    height: fit-content;
+    width: 10%;
+    background-color: #5bc2a7;
+    color: #201748;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: var(--gap);
+    padding: 0.6rem;
+    cursor: pointer;
+    border: none;
+    box-shadow: var(--shadow);
+    position: relative;
+}
+
+.dropdown-button i {
+    font-size: 1.1rem;
+}
+
+.dropdown-menu {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: column;
+    width: 15%;
+    box-shadow: var(--shadow);
+    border-radius: var(--radius);
+    margin-top: 0.3rem;
+    background: #5bc2a7;
+    transition: all 0.1s cubic-bezier(0.16, 1, 0.5, 1);
+
+    transform: translateY(0.5rem);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.show {
+    transform: translateY(0rem);
+    visibility: visible;
+    opacity: 1;
+}
+
+.dropdown-menu a {
+    display: flex;
+    align-items: center;
+    column-gap: var(--gap);
+    padding: 0.8rem 1rem;
+    text-decoration: none;
+    color: #201748;
+}
+
+.dropdown-menu a:hover {
+    background-color: var(--color);
+    color: white;
 }
 
 nav ul {
@@ -110,13 +178,6 @@ nav ul li a {
     padding: 0 10px;
 }
 
-.join-slack {
-    color: black;
-    background-color: #5bc2a7;
-    border-radius: 15px;
-    padding: 5px 10px;
-}
-
 .hero-image figure {
     background-size:cover ;
 }
@@ -130,6 +191,35 @@ h3 a {
 }
 
 /* Projects */
+
+#projects {
+    display: flex;
+    flex-flow: column;
+}
+
+.project-content {
+    padding: 0 .25rem;
+}
+
+#projects .project-block {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: column;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 20px;
+    margin: 5px 0;
+}
+
+#projects article {
+    width: 100%;
+}
+
+.project-title {
+    font-weight: bold;
+    color: #201647;
+}
 
 table {
     table-layout: fixed;
@@ -169,24 +259,24 @@ table a {
 
 .status-symbol {
     color: black;
-    border: 1px solid black;
+    border: 3px solid;
     padding: .25rem;
     border-radius: 25px;
 }
 
 span.active {
     color: #5bc2a7;
-    border: 1px solid #5bc2a7;
+    border-color: #5bc2a7;
 }
 
 span.under-consideration {
     color: #ffa300;
-    border: 1px solid #ffa300;
+    border-color: #ffa300;
 }
 
 span.retired{
     color: #201647;
-    border: 1px solid #201647;
+    border-color: #201647;
 }
 
 /* Connect */
@@ -229,3 +319,12 @@ footer .content-wrapper {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+@media (min-width: 768px) {
+    .join-slack {
+        color: black;
+        background-color: #5bc2a7;
+        border-radius: 15px;
+        padding: 5px 10px;
+    }
+}
