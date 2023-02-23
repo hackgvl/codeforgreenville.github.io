@@ -72,7 +72,14 @@ h3 {
 }
 
 h4 {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
+    margin: 5px 0;
+}
+
+p {
+    font-size: 1rem;
+    color: #201647;
+    font-style: italic;
 }
 
 /******************************************
@@ -182,10 +189,6 @@ nav ul li a {
     background-size:cover ;
 }
 
-h2 a {
-    color: #;
-}
-
 h3 a {
     color: #006341;
 }
@@ -201,19 +204,30 @@ h3 a {
     padding: 0 .25rem;
 }
 
-#projects .project-block {
+.project-block {
     width: 100%;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-flow: column;
-    border-bottom: 2px solid lightgray;
-    padding-bottom: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid lightgray;
+    /* border-bottom: 2px solid lightgray; */
+    padding-bottom: 5px;
     margin: 5px 0;
 }
 
-#projects article {
-    width: 100%;
+.project-link {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    color: #443850;
+    font-size: 3rem;
+}
+
+
+.project-description {
+    text-align: left;
+    width: 75%;
 }
 
 .project-title {
@@ -243,24 +257,15 @@ td, th {
     padding: 10px;
 }
 
-/* tr:nth-child(even) {
-    background-color: #ede2f3;
-} */
-
 table a {
     color: black;
     font-weight: bold;
 }
 
-.project-link i {
-    color: #443850;
-    font-size: 1.5rem;
-}
-
 .status-symbol {
     color: black;
     border: 3px solid;
-    padding: .25rem;
+    padding: .35rem;
     border-radius: 25px;
 }
 
