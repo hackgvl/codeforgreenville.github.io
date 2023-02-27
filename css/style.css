@@ -11,6 +11,10 @@ header {
     background-color: #ffffff;
 }
 
+main {
+    background-color: #F5F5F5;
+}
+
 header,
 main,
 footer {
@@ -197,12 +201,16 @@ nav ul li a {
     padding: 0 10px;
 }
 
-.hero-image figure {
-    background-size:cover ;
+#banner {
+    width: 100%;
+}
+
+.hero-image img {
+    object-fit: none;
 }
 
 h3 a {
-    color: #006341;
+    color: #201748;
 }
 
 /* Projects */
@@ -338,6 +346,79 @@ footer .content-wrapper {
 /*******************************************/
 
 @media (min-width: 768px) {
+    /* Header */
+    .code-gvl-logo {
+        /* filter: drop-shadow(1px 2px 6px #5bc2a7); */
+        max-width: 100px;
+    }
+    
+    .site-title {
+        display: none;
+    }
+
+    .dropdown-button {
+        display: none;
+    }
+
+    .drop-down {
+        visibility: visible;
+        width: 25%;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+    }
+
+    header .dropdown-menu {
+        visibility: visible;
+        display: flex;
+        justify-content: flex-end;
+        flex-flow: row-wrap;
+    }
+
+    .dropdown-menu li:hover {
+        width: 100%;
+        background-color: #5bc2a7;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .dropdown-menu a {
+        display: flex;
+        align-items: center;
+        column-gap: var(--gap);
+        padding: 0.8rem 1rem;
+        text-decoration: none;
+        color: #201748;
+    }
+    
+    .dropdown-menu a:hover {
+        background-color: var(--color);
+        color: white;
+    }
+
+    /* Hero Image */
+    #banner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .hero-image,
+    .header-title {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+    }
+
+    .hero-image {
+        width: 75%;
+    }
+
+    .header-title {
+        align-items: flex-start;
+        text-align: left;
+    }
+
     .join-slack {
         color: black;
         background-color: #5bc2a7;
