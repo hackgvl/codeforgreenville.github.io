@@ -110,7 +110,6 @@ header nav figure {
 }
 
 .code-gvl-logo {
-    /* filter: drop-shadow(1px 2px 6px #5bc2a7); */
     max-width: 75px;
 }
 
@@ -144,11 +143,11 @@ header nav figure {
 
 .dropdown-menu {
     position: absolute;
-    right: 9%;
+    right: 25%;
+    width: 150%;
     display: flex;
     justify-content: flex-end;
     flex-flow: column;
-    width: 27%;
     border: 2px solid #5bc2a7;
     border-radius: 5px;
     box-shadow: 0 1px 2px 0 #5bc2a7;
@@ -167,6 +166,12 @@ header nav figure {
     opacity: 1;
 }
 
+.dropdown-menu li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .dropdown-menu li:hover {
     width: 100%;
     background-color: #5bc2a7;
@@ -178,7 +183,7 @@ header nav figure {
     display: flex;
     align-items: center;
     column-gap: var(--gap);
-    padding: 0.8rem 1rem;
+    padding: 0.8rem 0.5rem;
     text-decoration: none;
     color: #201748;
 }
@@ -236,7 +241,6 @@ h3 a {
     justify-content: space-around;
     align-items: center;
     border-top: 2px solid lightgray;
-    /* border-bottom: 2px solid lightgray; */
     padding-bottom: 5px;
     margin: 5px 0;
 }
@@ -353,7 +357,6 @@ footer .content-wrapper {
 @media (min-width: 768px) {
     /* Header */
     .code-gvl-logo {
-        /* filter: drop-shadow(1px 2px 6px #5bc2a7); */
         max-width: 100px;
     }
     
@@ -365,7 +368,7 @@ footer .content-wrapper {
         display: none;
     }
 
-    .drop-down {
+    .dropdown {
         visibility: visible;
         width: 25%;
         display: flex;
@@ -373,11 +376,17 @@ footer .content-wrapper {
         justify-content: center;
     }
 
-    header .dropdown-menu {
+    .dropdown-menu {
         visibility: visible;
         display: flex;
         justify-content: flex-end;
         flex-flow: row-wrap;
+    }
+
+    .show {
+        transform: translateY(-0.2rem);
+        visibility: visible;
+        opacity: 1;
     }
 
     .dropdown-menu li:hover {
@@ -416,16 +425,32 @@ footer .content-wrapper {
         display: flex;
         flex-flow: column;
         align-items: flex-start;
+        text-align: left;
     }
 
     .hero-image img {
         object-fit: cover;
     }
 
-    .join-slack {
+    /* Projects */
+    .project-content {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .project-block {
+        width: 45%;
+        align-items: center;
+        border: 2px solid lightgray;
+    }
+
+    /* Contact */
+    
+    /* .join-slack {
         color: black;
         background-color: #5bc2a7;
         border-radius: 15px;
         padding: 5px 10px;
-    }
+    } */
 }
