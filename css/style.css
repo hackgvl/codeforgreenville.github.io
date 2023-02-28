@@ -365,7 +365,7 @@ footer .content-wrapper {
     }
 
     nav ul li a {
-        font-size: 1.1rem;
+        font-size: 0.9rem;
         background-color: #5bc2a7;
         padding: 8px 25px;
         border-radius: 15px;
@@ -377,17 +377,28 @@ footer .content-wrapper {
     
     .nav-bar-menu {
         display: flex;
+        margin-left: 10px;
     }
 
     .dropdown {
         display: none;
     }
 
-    /* Hero Image */
+    /* Banner */
     #banner {
         flex-direction: row;
         justify-content: space-between;
         max-width: 1150px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        margin: 20px 0;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+        margin: 10px 0;
     }
 
     .header-title {
@@ -398,8 +409,12 @@ footer .content-wrapper {
         width: 63%;
     }
 
+    .hero-image {
+        width: 75%;
+    }
+
     .hero-image figure {
-        width: 90%;
+        width: 95%;
     }
 
     .hero-image img {
@@ -409,6 +424,11 @@ footer .content-wrapper {
     }
 
     /* Projects */
+    h2 {
+        font-size: 2rem;
+        margin: 20px 0;
+    }
+
     .project-content {
         display: flex;
         flex-flow: row wrap;
@@ -423,5 +443,33 @@ footer .content-wrapper {
 }
 
 @media (min-width: 1200px) {
+    /* Banner */
+    #banner {
+        max-width: 1450px;
+    }
 
+    h1 {
+        font-size: 3rem;
+        margin: 20px 0;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+        margin: 10px 0;
+    }
+
+    /* Projects */
+    h2 {
+        font-size: 2.25rem;
+        margin: 20px 0;
+    }
+
+    .project-content {
+        justify-content: space-evenly;
+    }
+
+    .project-block {
+        flex-basis: 30%;
+        margin: 10px 8px;
+    }
 }
