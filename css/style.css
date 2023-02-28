@@ -217,6 +217,7 @@ nav ul li a {
 
 .hero-image img {
     object-fit: none;
+    max-width: 485px;
 }
 
 h3 a {
@@ -413,12 +414,8 @@ footer .content-wrapper {
     /* Hero Image */
     #banner {
         flex-direction: row;
-        justify-content: space-around;
-    }
-
-    .hero-image,
-    .header-title {
-        width: 75%;
+        justify-content: space-between;
+        max-width: 1150px;
     }
 
     .header-title {
@@ -426,10 +423,17 @@ footer .content-wrapper {
         flex-flow: column;
         align-items: flex-start;
         text-align: left;
+        width: 63%;
+    }
+
+    .hero-image figure {
+        width: 90%;
     }
 
     .hero-image img {
-        object-fit: cover;
+        width: 100%;
+        object-fit: contain;
+        max-width: 780px;
     }
 
     /* Projects */
@@ -444,13 +448,8 @@ footer .content-wrapper {
         align-items: center;
         border: 2px solid lightgray;
     }
+}
 
-    /* Contact */
+@media (min-width: 1200px) {
     
-    /* .join-slack {
-        color: black;
-        background-color: #5bc2a7;
-        border-radius: 15px;
-        padding: 5px 10px;
-    } */
 }
