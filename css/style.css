@@ -51,7 +51,6 @@ ul {
 a {
     text-decoration: none;
     color: #201748;
-    font-weight: bold;
 }
 
 h1, h2 {
@@ -101,12 +100,15 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 header nav figure {
     width: 25%;
     margin: 0;
+}
+
+.nav-bar-menu {
+    display: none;
 }
 
 .code-gvl-logo {
@@ -201,10 +203,6 @@ nav ul {
     text-align: left;
     font-size: .9rem;
     padding: 0;
-}
-
-nav ul li a {
-    padding: 0 10px;
 }
 
 #banner {
@@ -357,58 +355,32 @@ footer .content-wrapper {
 
 @media (min-width: 768px) {
     /* Header */
+    header nav {
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    nav ul li a {
+        font-size: 1.1rem;
+        background-color: #5bc2a7;
+        padding: 8px 25px;
+        border-radius: 15px;
+    }
+
     .code-gvl-logo {
         max-width: 100px;
     }
     
-    .site-title {
-        display: none;
-    }
-
-    .dropdown-button {
-        display: none;
+    .nav-bar-menu {
+        display: flex;
     }
 
     .dropdown {
-        visibility: visible;
-        width: 25%;
-        display: flex;
-        flex-flow: row;
-        justify-content: center;
-    }
-
-    .dropdown-menu {
-        visibility: visible;
-        display: flex;
-        justify-content: flex-end;
-        flex-flow: row-wrap;
-    }
-
-    .show {
-        transform: translateY(-0.2rem);
-        visibility: visible;
-        opacity: 1;
-    }
-
-    .dropdown-menu li:hover {
-        width: 100%;
-        background-color: #5bc2a7;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .dropdown-menu a {
-        display: flex;
-        align-items: center;
-        column-gap: var(--gap);
-        padding: 0.8rem 1rem;
-        text-decoration: none;
-        color: #201748;
-    }
-    
-    .dropdown-menu a:hover {
-        background-color: var(--color);
-        color: white;
+        display: none;
     }
 
     /* Hero Image */
@@ -451,5 +423,5 @@ footer .content-wrapper {
 }
 
 @media (min-width: 1200px) {
-    
+
 }
