@@ -371,6 +371,11 @@ footer .content-wrapper {
         border-radius: 15px;
     }
 
+    nav ul li a:hover {
+        background-color: #443850;
+        color: #ffffff;
+    }
+
     .code-gvl-logo {
         max-width: 100px;
     }
@@ -439,6 +444,15 @@ footer .content-wrapper {
         width: 45%;
         align-items: center;
         border: 2px solid lightgray;
+    }
+
+    .project-link i:hover {
+        color: #5bc2a7;
+    }
+
+    /* Contact */
+    #footer-links i:hover {
+        color: #5bc2a7;
     }
 }
 
