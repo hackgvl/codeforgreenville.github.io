@@ -120,7 +120,7 @@ header nav figure {
     color: #201748;
 }
 
-.dropdown {
+.overlay {
     position: relative;
 }
 
@@ -385,7 +385,7 @@ footer .content-wrapper {
         margin-left: 10px;
     }
 
-    .dropdown {
+    .overlay {
         display: none;
     }
 
