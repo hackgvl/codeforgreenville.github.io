@@ -1,0 +1,489 @@
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+    font-size: 1em;
+    font-family: 'Roboto', 'Arimo', sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+main {
+    background-color: #F5F5F5;
+}
+
+header,
+main,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.content-wrapper {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    border: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #201748;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #201748;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3, h4 {
+    font-family: 'Arimo', sans-serif;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-size: 1.15rem;
+    margin: 5px 0;
+}
+
+p {
+    font-size: 1rem;
+    color: #201647;
+    font-style: italic;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Header */
+
+header {
+    padding-top: 5px;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav figure {
+    width: 25%;
+    margin: 0;
+}
+
+.nav-bar-menu {
+    display: none;
+}
+
+.code-gvl-logo {
+    max-width: 75px;
+}
+
+.site-title {
+    display: none;
+    color: #201748;
+}
+
+.overlay {
+    position: relative;
+}
+
+.dropdown-button {
+    width: 10%;
+    background-color: #5bc2a7;
+    color: #201748;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: var(--gap);
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    border: none;
+    position: relative;
+}
+
+.dropdown-button i {
+    font-size: 1.1rem;
+}
+
+.dropdown-menu {
+    position: absolute;
+    right: 25%;
+    width: 150%;
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: column;
+    border: 2px solid #5bc2a7;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px 0 #5bc2a7;
+    margin-top: 0.3rem;
+    background: #ffffff;
+    transition: all 0.1s cubic-bezier(0.16, 1, 0.5, 1);
+
+    transform: translateY(0.5rem);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.show {
+    transform: translateY(-0.2rem);
+    visibility: visible;
+    opacity: 1;
+}
+
+.dropdown-menu li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown-menu li:hover {
+    width: 100%;
+    background-color: #5bc2a7;
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown-menu a {
+    display: flex;
+    align-items: center;
+    column-gap: var(--gap);
+    padding: 0.8rem 0.5rem;
+    text-decoration: none;
+    color: #201748;
+}
+
+.dropdown-menu a:hover {
+    background-color: var(--color);
+    color: white;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    font-size: .9rem;
+    padding: 0;
+}
+
+#banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    object-fit: none;
+    max-width: 485px;
+}
+
+h3 a {
+    color: #201748;
+}
+
+/* Projects */
+
+#projects {
+    display: flex;
+    flex-flow: column;
+}
+
+.project-content {
+    padding: 0 .25rem;
+}
+
+.project-block {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid lightgray;
+    padding-bottom: 5px;
+    margin: 5px 0;
+}
+
+.project-link {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    color: #443850;
+    font-size: 3rem;
+}
+
+
+.project-description {
+    text-align: left;
+    width: 75%;
+}
+
+.project-title {
+    font-weight: bold;
+    color: #201647;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: .9rem;
+    margin: 25px 0;
+}
+
+th {
+    font-size: .95rem;
+    text-align: center;
+}
+
+td {
+    text-align: left;
+}
+
+td, th {
+    border-spacing: 10px;
+    padding: 10px;
+}
+
+table a {
+    color: black;
+    font-weight: bold;
+}
+
+.status-symbol {
+    color: black;
+    border: 3px solid;
+    padding: .35rem;
+    border-radius: 25px;
+}
+
+span.active {
+    color: #5bc2a7;
+    border-color: #5bc2a7;
+}
+
+span.under-consideration {
+    color: #ffa300;
+    border-color: #ffa300;
+}
+
+span.retired{
+    color: #201647;
+    border-color: #201647;
+}
+
+/* Connect */
+footer {
+    background: #ede2f3;
+}
+
+footer .content-wrapper {
+    flex-flow: column;
+}
+
+#footer-links {
+    display: flex;
+    justify-content: center;
+}
+
+#footer-links ul {
+    display: flex;
+    flex-wrap: row-wrap;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer-links li {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+}
+
+#footer-links a {
+    color: #201647;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+@media (min-width: 768px) {
+    /* Header */
+    header nav {
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    nav ul li a {
+        font-size: 0.9rem;
+        background-color: #5bc2a7;
+        padding: 8px 25px;
+        border-radius: 15px;
+    }
+
+    nav ul li a:hover {
+        background-color: #443850;
+        color: #ffffff;
+    }
+
+    .code-gvl-logo {
+        max-width: 100px;
+    }
+    
+    .nav-bar-menu {
+        display: flex;
+        margin-left: 10px;
+    }
+
+    .overlay {
+        display: none;
+    }
+
+    /* Banner */
+    #banner {
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 1150px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        margin: 20px 0;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+        margin: 10px 0;
+    }
+
+    .header-title {
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+        text-align: left;
+        width: 63%;
+    }
+
+    .hero-image {
+        width: 75%;
+    }
+
+    .hero-image figure {
+        width: 95%;
+    }
+
+    .hero-image img {
+        width: 100%;
+        object-fit: contain;
+        max-width: 780px;
+    }
+
+    /* Projects */
+    h2 {
+        font-size: 2rem;
+        margin: 20px 0;
+    }
+
+    .project-content {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .project-block {
+        width: 45%;
+        align-items: center;
+        border: 2px solid lightgray;
+    }
+
+    .project-link i:hover {
+        color: #5bc2a7;
+    }
+
+    /* Contact */
+    #footer-links i:hover {
+        color: #5bc2a7;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* Banner */
+    #banner {
+        max-width: 1450px;
+    }
+
+    h1 {
+        font-size: 3rem;
+        margin: 20px 0;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+        margin: 10px 0;
+    }
+
+    /* Projects */
+    h2 {
+        font-size: 2.25rem;
+        margin: 20px 0;
+    }
+
+    .project-content {
+        justify-content: space-evenly;
+    }
+
+    .project-block {
+        flex-basis: 30%;
+        margin: 10px 8px;
+    }
+}

@@ -1,118 +1,292 @@
 <!DOCTYPE html>
 <!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
 <!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!-->
+<html class="no-js" lang="en"><!--<![endif]-->
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154722329-2"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TZ0ZL44H4L"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-TZ0ZL44H4L');
-  </script>
-  <meta charset="utf-8">
-  <title>Code for Greenville</title>
-  <meta name="author" content="Code for Greenville">
+            gtag('config', 'UA-154722329-2');
+        </script>
 
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <title>Open Upstate</title>
+        <meta name="author" content="Code for Greenville">
 
-  
-  <link rel="canonical" href="https://codeforgreenville.org">
+        <!-- http://t.co/dKP3o1e -->
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Start Favicon !-->
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-  <!-- End Favicon -->
+        
+        <link rel="canonical" href="https://codeforgreenville.org">
 
-<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-</head>
+        <!-- Start Favicon !-->
+        <link rel="apple-touch-icon" sizes="57x57" href="imgs/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="imgs/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="imgs/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="imgs/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="imgs/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="imgs/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="imgs/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="imgs/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="imgs/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="imgs/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="imgs/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="imgs/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <!-- End Favicon -->
 
-  <body>
-    <div id="wrap">
-      <header role="banner">
-        <nav class="navbar navbar-default" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-          <h1>Code for Greenville</h1>
-          <small>a <a href="https://www.codeforamerica.org">Code for America</a> brigade</small>
-        </div>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/a4cb0941c3.js" crossorigin="anonymous"></script>
 
-        <div class="navbar-collapse collapse">
-        </div>
-    </div>
-</nav>
-      </header>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Roboto&display=swap" rel="stylesheet">
+    </head>
 
-      <div id="main" class="container">
-        <div id="content">
-          <div class="row">
-  <div class="page-content col-md-4">
-      <h2>Upcoming Events</h2>
-        <p>The <em><a href="https://www.meetup.com/Code-for-Greenville/events/">1st Tuesday of each month</a></em> is our current meeting night.</p>
-      </ul>
-    <center><a href="https://www.meetup.com/Code-for-Greenville/"><img alt="Code for Greenville Brigade" src="https://img1.meetupstatic.com/img/840203207151829727114/user_logos/meetup_logo_200_white_1.gif"></a></center>
-  </div>
-  <div class="page-content col-md-4">
-      <h2>Projects</h2>
-      <h4>Active</h4>
-      <ul>
-        <li><a href="https://data.openupstate.org">Open Data Projects
-          <ul>
-            <li><a href="https://github.com/codeforgreenville/OpenData/blob/master/ORGANIZATIONS_API.md">Organizations API</a></li>
-            <li><a href="https://github.com/codeforgreenville/upstate_tech_cal_service#readme">Events API</a></li>
-            <li><a href="https://github.com/codeforgreenville/OpenData/blob/master/MAPS_API.md">Map Layers</a></li>
-          </ul>
-        </li>
-        <li><a href="https://hackgreenville.com/">Hackgreenville.com</a> (on <a href="https://github.com/codeforgreenville/hackgreenville-com#readme">GitHub</a>)</li>
-        <li><a href="https://github.com/codeforgreenville/c4g-events#readme">Hack Greenville Slack "Bot" Integrations</a></li>  
-    </ul>
-      <h4>Under Consideration</h4>
-      <ul>
-        <li><a href="https://medium.com/code-for-america/closing-the-delivery-gap-making-good-on-the-promise-of-californias-record-clearance-laws-5968b4b9278b">Clear My Record - Criminal Record Expungement</a></li>
-        <li><a href="https://github.com/codeforgreenville/public-art/issues">Integrated / Interactive Street Art</a></li>
-        <li><a href="https://greenvillecodes.org">Greenville Codes - free, part-time code education</a></li>
-    </ul>
-      <h4>Retired</h4>
-      <p><small>Trolley Tracker - from 2014-2021, Code For Greenville members built and maintained technology which allowed thousands of locals and visitors to <a href="https://github.com/codeforgreenville?utf8=%E2%9C%93&q=trolley&type=&language=">track the downtown Greenville trolleys</a> in real-time from their mobile devices.</small></p>
-  </div>
-  <div class="page-content col-md-4">
-    <h2>Resources</h2>
-      <ul>
-        <li><a href="https://github.com/codeforgreenville/">GitHub - Repositories and Issues</a></li>
-        <li><a href="http://codeforgreenville.org/about/code-of-conduct">Code of Conduct</a></li>
-        <li><a href="https://brigade.codeforamerica.org/showcase">Showcase CFA Brigade Projects</a></li>
-        <li><a href="https://brigade.codeforamerica.org/resources/software">Project Software Resources</a></li>
-      </ul>
-      <a href="https://data.openupstate.org/contact/join_code_for_greenville_slack" rel="nofollow"><img src="/images/btn-add-to-slack 1x.png" alt="Add to Slack" title="Add to Slack" /></a>
-  </div>
-        </div>
-      </div>
-        <p>Designers <strike>wanted</strike> needed.</p>
-    </div>
-    <footer role="contentinfo">
-</footer>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
- 
-      </body>
+    <body>
+        <header>
+            <div class="content-wrapper">
+                <nav>
+                    <figure class="code-gvl-logo">
+                        <a>
+                        <img src="imgs/apple-icon-no-border.png" alt="Code for Greenville logo">
+                        </a>
+                    </figure>
+                    <div class="nav-bar-menu">
+                        <ul class="nav-bar-list">
+                            <li>
+                                <a href="https://www.meetup.com/Code-for-Greenville/events/" target="_blank">Events</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/codeforgreenville" target="_blank">GitHub</a>
+                            </li>
+                            <li>
+                                <a href="https://data.openupstate.org/contact/join_code_for_greenville_slack" class="join-slack" target="_blank">Join Slack</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="overlay">
+                        <button class="dropdown-button">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <ul class="dropdown-menu" id="dropdown-menu">
+                            <li>
+                                <a href="https://www.meetup.com/Code-for-Greenville/events/" target="_blank">Events</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/codeforgreenville" target="_blank">GitHub</a>
+                            </li>
+                            <li>
+                                <a href="https://data.openupstate.org/contact/join_code_for_greenville_slack" class="join-slack" target="_blank">Join Slack</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div id="banner">
+                    <div class="header-title">
+                        <h1>Open Upstate</h1>
+                        <h3>Mentoring, inspiring, and innovating locally </h3>
+                        <h3>The <a href="https://www.visitgreenvillesc.com/about-greenville/all-about-greenville/destination-overview/">#YeahThatGreenville</a> tech community
+                        </h3>
+                    </div>
+                    <div class="hero-image">
+                        <figure>
+                            <img src="imgs/session.png" alt="Code for Greenville meeting">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div id="projects" class="content-wrapper">
+                <h2>Our Projects</h2>
+                <ul class="project-content">
+                    <li class="project-block">
+                        <div class="project-link">
+                            <figure>
+                                <a href="https://github.com/codeforgreenville/OpenData" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </figure>
+                        </div>
+                        <section class="project-description">
+                            <h4 class="project-title">
+                                Open Data Organizations API
+                            </h4>
+                            <p>Public API for Open Data Organization information</p>
+                            <span class="status-symbol active">Active</span>
+                        </section>
+                    </li>
+                    <li class="project-block">
+                        <div class="project-link">
+                            <figure>
+                                <a href="https://github.com/codeforgreenville/OpenData" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </figure>
+                        </div>
+                        <section class="project-description">
+                            <h4 class="project-title">
+                                Events API
+                            </h4>
+                            <p>Public API for event information</p>
+                            <span class="status-symbol active">Active</span>
+                        </section>
+                    </li>
+                    <li class="project-block">
+                        <div class="project-link">
+                            <figure>
+                                <a href="https://github.com/codeforgreenville/OpenData/blob/master/MAPS_API.md" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </figure>
+                        </div>
+                        <section class="project-description">
+                            <h4 class="project-title">
+                                Open Data API and Map Layers
+                            </h4>
+                            <p>Public API for map layers</p>
+                            <span class="status-symbol active">Active</span>
+                        </section>
+                    </li>
+                    <li class="project-block">
+                        <div class="project-link">
+                            <figure>
+                                <a href="https://github.com/codeforgreenville/hackgreenville-com#readme" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </figure>
+                        </div>
+                        <section class="project-description">
+                            <h4 class="project-title">
+                                Hack Greenville
+                            </h4>
+                            <p>Tech events in Greenville, SC</p>
+                            <span class="status-symbol active">Active</span>
+                        </section>
+                    </li>
+                    <li class="project-block">
+                        <div class="project-link">
+                            <figure>
+                                <a href="https://github.com/codeforgreenville/c4g-events#readme" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </figure>
+                        </div>
+                        <section class="project-description">
+                            <h4 class="project-title">
+                                Hack Greenville Slack Bot Integrations
+                            </h4>
+                            <p>Code for Greenville events</p>
+                            <span class="status-symbol active">Active</span>
+                        </section>
+                    </li>
+                    <li class="project-block">
+                        <div class="project-link">
+                            <figure>
+                                <a href="https://medium.com/code-for-america/closing-the-delivery-gap-making-good-on-the-promise-of-californias-record-clearance-laws-5968b4b9278b" target="_blank">
+                                    <i class="fa-regular fa-window-maximize"></i>
+                                </a>
+                            </figure>
+                        </div>
+                        <section class="project-description">
+                            <h4 class="project-title">
+                                Clear My Record
+                            </h4>
+                            <p>Criminal record expungement</p>
+                            <span class="status-symbol under-consideration">Considering</span>
+                        </section>
+                    </li>
+                    <li class="project-block">
+                        <div class="project-link">
+                            <figure>
+                                <a href="https://github.com/codeforgreenville/public-art/issues" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </figure>
+                        </div>
+                        <section class="project-description">
+                            <h4 class="project-title">
+                                Integrated/Interactive Street Art
+                            </h4>
+                            <p>Augmented reality art project</p>
+                            <span class="status-symbol under-consideration">Considering</span>
+                        </section>
+                    </li>
+                    <li class="project-block">
+                        <div class="project-link">
+                            <figure>
+                                <a href="https://greenvillecodes.org/" target="_blank">
+                                    <i class="fa-regular fa-window-maximize"></i>
+                                </a>
+                            </figure>
+                        </div>
+                        <section class="project-description">
+                            <h4 class="project-title">
+                                Greenville Codes
+                            </h4>
+                            <p>Free, part-time coding education</p>
+                            <span class="status-symbol under-consideration">Considering</span>
+                        </section>
+                    </li>
+                    <li class="project-block">
+                        <div class="project-link">
+                            <figure>
+                                <a href="https://github.com/codeforgreenville/trolley-tracker" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </figure>
+                        </div>
+                        <section class="project-description">
+                            <h4 class="project-title">
+                                Trolley Tracker Web App
+                            </h4>
+                            <p>Live trolley tracking app (2014-2021)</p>
+                            <span class="status-symbol retired">Retired</span>
+                        </section>
+                    </li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <div class="content-wrapper">
+                <h2>Connect</h2>
+                <div id="footer-links">
+                    <ul>
+                        <li>
+                            <a href="https://data.openupstate.org/contact/join_code_for_greenville_slack" target="_blank">
+                                <i class="fa-brands fa-slack"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://codeforgreenville.org/about/code-of-conduct" target="_blank">
+                                <i class="fa-solid fa-book"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/codeforgreenville/" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <p class="copyright">Copyright <script>document.write(new Date().getFullYear())</script> || Code for Greenville</p>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>     
+        
+    </body>
 </html>
